@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="915BA740-C50C-28EA-5784-B525330E4371" name="Zamowienie">
+<createdBy>oleks</createdBy>
+<createdTime>2026-11-06 17:55:06 UTC</createdTime>
+<generatorID>3CAE96BF-A839-9FEF-0B8F-DD3B1274EAD8</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Zamowienia" id="DDE6BBA6-9051-8F31-47E3-7900440D2E1F">
+<createdBy>oleks</createdBy>
+<createdTime>2026-11-06 17:55:06 UTC</createdTime>
+<generatorID>36ABC2CF-D8EE-841C-D30C-231F2D10ADA6</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_Czas" id="B92ABC41-69FB-59F5-3B04-6329A403D8E7">
+<createdBy>oleks</createdBy>
+<createdTime>2026-11-06 17:55:06 UTC</createdTime>
+<generatorID>13B0E342-9695-6E36-FFBB-842A208A3960</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cena_Koncowa" id="85D68B30-6BF2-28BA-500E-169E398C9D50">
+<createdBy>oleks</createdBy>
+<createdTime>2026-11-06 17:55:06 UTC</createdTime>
+<generatorID>BB38E90F-2403-6074-2E96-11E4EB907EBA</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Forma_Platnosci" id="8D6B0228-B6E8-846E-84A9-8E04632F520A">
+<createdBy>oleks</createdBy>
+<createdTime>2026-11-06 17:55:06 UTC</createdTime>
+<generatorID>16D267B1-9B8F-5A81-3CBD-9BB9E52B4DEC</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Udzielony_Rabat" id="4D6E787A-C2F6-C29B-3F4B-02AB89EB58E8">
+<createdBy>oleks</createdBy>
+<createdTime>2026-11-06 17:55:06 UTC</createdTime>
+<generatorID>60B40599-9BA1-C909-5059-2AC41B9BA230</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Wykorzystane_Punkty" id="90F03800-F077-8C38-ECCF-A2AF77B99002">
+<createdBy>oleks</createdBy>
+<createdTime>2026-11-06 17:55:06 UTC</createdTime>
+<generatorID>D5859529-670A-7B41-0459-272083EB6F83</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Klient_ID_Klienta" id="1201E631-1ED0-E91D-D40F-9145EEED56C7">
+<createdBy>oleks</createdBy>
+<createdTime>2026-11-06 17:55:06 UTC</createdTime>
+<generatorID>B8140779-9A9F-A114-4DCE-50D72D389596</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F6C7E257-5D68-805D-CB67-C0E2A2238F95" referredColumn="34380CA2-4E13-161A-A368-03288D5D7EC9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="55716172-D214-7E26-32D8-20D3E1995C2B" name="Zamowienie_PK">
+<createdBy>oleks</createdBy>
+<createdTime>2026-11-06 17:55:06 UTC</createdTime>
+<generatorID>80388268-40A0-EFC3-B81B-8FBC7E52FD91</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDE6BBA6-9051-8F31-47E3-7900440D2E1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E39EE94-3090-221B-325C-F4C7D5F50B78" name="Zamowienie_ID_Zamowienia_UN">
+<createdBy>oleks</createdBy>
+<createdTime>2026-11-06 17:55:06 UTC</createdTime>
+<generatorID>AE70851C-26C1-9137-21F5-05488F286EDE</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDE6BBA6-9051-8F31-47E3-7900440D2E1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4F9C3FC-FD8B-1B1C-3EDD-2C24612C4B34" name="Zamowienie_Klient_FK">
+<createdBy>oleks</createdBy>
+<createdTime>2026-11-06 17:55:06 UTC</createdTime>
+<generatorID>3371296E-EF75-1642-1878-21AD51D6D2A8</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1201E631-1ED0-E91D-D40F-9145EEED56C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

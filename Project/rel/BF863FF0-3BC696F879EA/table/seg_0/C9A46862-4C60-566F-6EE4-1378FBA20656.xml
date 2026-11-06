@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C9A46862-4C60-566F-6EE4-1378FBA20656" name="Pracownicy">
+<createdBy>oleks</createdBy>
+<createdTime>2026-11-06 17:55:06 UTC</createdTime>
+<generatorID>3C867848-F4CA-E4BE-F736-D6D039D30ED8</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Pracownika" id="C1734959-F4B9-A2ED-478D-1D8D494335EF">
+<createdBy>oleks</createdBy>
+<createdTime>2026-11-06 17:55:06 UTC</createdTime>
+<generatorID>FA121947-F4FD-719B-0C4B-2AF88C43B56C</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Imie" id="CD7852F4-318C-F62A-3C6E-15E96C96F314">
+<createdBy>oleks</createdBy>
+<createdTime>2026-11-06 17:55:06 UTC</createdTime>
+<generatorID>751AA755-B25C-35AB-6CA1-E1F71A3D30E8</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwisko" id="A5048773-B949-C590-B47C-8570F9FF4C26">
+<createdBy>oleks</createdBy>
+<createdTime>2026-11-06 17:55:06 UTC</createdTime>
+<generatorID>7EB1D964-8688-FCD4-503C-CB146C6D0D84</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stanowisko" id="F913EC33-64CE-BA0F-F527-0873A1052099">
+<createdBy>oleks</createdBy>
+<createdTime>2026-11-06 17:55:06 UTC</createdTime>
+<generatorID>73C32473-50C4-838E-26BE-1F821EF3697B</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_Zatrudnienia" id="29BC7C9C-23D6-9578-6A10-074160BFD0C6">
+<createdBy>oleks</createdBy>
+<createdTime>2026-11-06 17:55:06 UTC</createdTime>
+<generatorID>973B844E-B27C-E020-5804-1ADF3BFCD2D7</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stacja_ID_Stacji" id="1EF7C52B-4869-3166-6CBB-294A5394B5EA">
+<createdBy>oleks</createdBy>
+<createdTime>2026-11-06 17:55:06 UTC</createdTime>
+<generatorID>1A778FBF-DEF3-82E8-7CB8-DB2D11FE3475</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E61E7E6C-7B5A-AA7E-6052-7A44698C3065" referredColumn="AD9520B4-412F-C835-1F3C-8B0838376636"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EE47BD27-F3F1-5CF3-3BB3-DED196FE86FE" name="Pracownicy_PK">
+<createdBy>oleks</createdBy>
+<createdTime>2026-11-06 17:55:06 UTC</createdTime>
+<generatorID>DEFDA1D8-E2DC-84A3-2EFA-E149B9AE36D2</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1734959-F4B9-A2ED-478D-1D8D494335EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5CAECEEC-DDA5-0179-1E2B-8D03D9D0B174" name="Pracownicy_Stacja_FK">
+<createdBy>oleks</createdBy>
+<createdTime>2026-11-06 17:55:06 UTC</createdTime>
+<generatorID>46C7C43B-5BBB-A0F9-0FF0-8BB7C437F62D</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1EF7C52B-4869-3166-6CBB-294A5394B5EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

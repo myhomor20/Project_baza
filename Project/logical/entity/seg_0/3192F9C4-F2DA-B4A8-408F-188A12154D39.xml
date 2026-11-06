@@ -68,6 +68,21 @@
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="ID_Stacji" id="BA1A56CA-D961-FFDB-F270-AC5A0AF990E8">
+<createdBy>oleks</createdBy>
+<createdTime>2026-11-06 17:50:59 UTC</createdTime>
+<generatorID>DA40EC19-C649-B9E9-88B5-02497C52C0C3</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="BF863FF0-9A8B-1705-92EB-3BC696F879EA" value="true"/>
+</engineerTo>
+<referedAttribute>A2CE303D-1BE6-6D28-F7D7-36B7F268EA81</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="58512967-9682-8DA4-D338-024C8299B588" name="Stanowisko PK">
@@ -77,7 +92,19 @@
 <engineerTo>
 <item key="BF863FF0-9A8B-1705-92EB-3BC696F879EA" value="true"/>
 </engineerTo>
+<usedAttributes>
+<attributeRef>C49177EC-4127-0F45-D526-2FBC7AEA05C4</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="5DBDC08C-98BB-367C-CF44-EB662CEBF05D" name="Stanowisko PKv1">
+<createdBy>oleks</createdBy>
+<createdTime>2026-11-06 17:48:00 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="BF863FF0-9A8B-1705-92EB-3BC696F879EA" value="true"/>
+</engineerTo>
 <pk>true</pk>
+<newElementsIDs>C49177EC-4127-0F45-D526-2FBC7AEA05C4</newElementsIDs>
 <usedAttributes>
 <attributeRef>C49177EC-4127-0F45-D526-2FBC7AEA05C4</attributeRef>
 </usedAttributes>

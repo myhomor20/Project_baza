@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="398EAFE2-8D06-DA75-7176-B85FB22BB109" containerWithKeyObject="C875D656-E482-F3BA-6E4C-18214181F02C" localFKIndex="D62FECFD-86CA-210B-9C10-8AF4529C0DBC" name="Paczkomaty_Stacja_FK">
+<createdBy>oleks</createdBy>
+<createdTime>2026-11-06 17:55:06 UTC</createdTime>
+<generatorID>8655738E-E415-BA66-0744-95E2F8C84F18</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<referredTableLongName>Stacja</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0B1BC843-65C4-63F4-2785-F3907994BFE1</referredTableID>
+<keyObject>B1AD06BE-DDAE-7A08-6AF1-52660BFE0659</keyObject>
+<referredKeyID>B1AD06BE-DDAE-7A08-6AF1-52660BFE0659</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Stacji</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

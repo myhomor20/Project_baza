@@ -194,7 +194,19 @@
 <engineerTo>
 <item key="BF863FF0-9A8B-1705-92EB-3BC696F879EA" value="true"/>
 </engineerTo>
+<usedAttributes>
+<attributeRef>A2CE303D-1BE6-6D28-F7D7-36B7F268EA81</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="A66CF880-2A45-CAC8-8112-46B36D4C3BE0" name="Stacja_key">
+<createdBy>oleks</createdBy>
+<createdTime>2026-11-06 17:30:30 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="BF863FF0-9A8B-1705-92EB-3BC696F879EA" value="true"/>
+</engineerTo>
 <pk>true</pk>
+<newElementsIDs>A2CE303D-1BE6-6D28-F7D7-36B7F268EA81</newElementsIDs>
 <usedAttributes>
 <attributeRef>A2CE303D-1BE6-6D28-F7D7-36B7F268EA81</attributeRef>
 </usedAttributes>

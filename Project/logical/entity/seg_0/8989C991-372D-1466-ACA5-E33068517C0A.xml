@@ -91,7 +91,19 @@
 <engineerTo>
 <item key="BF863FF0-9A8B-1705-92EB-3BC696F879EA" value="true"/>
 </engineerTo>
+<usedAttributes>
+<attributeRef>D81DB52B-8779-C6AC-A347-A76369C7E9F9</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="4753AE41-DDF4-5516-3A22-6B22B713F82E" name="Klient_Key">
+<createdBy>oleks</createdBy>
+<createdTime>2026-11-06 17:45:33 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="BF863FF0-9A8B-1705-92EB-3BC696F879EA" value="true"/>
+</engineerTo>
 <pk>true</pk>
+<newElementsIDs>D81DB52B-8779-C6AC-A347-A76369C7E9F9</newElementsIDs>
 <usedAttributes>
 <attributeRef>D81DB52B-8779-C6AC-A347-A76369C7E9F9</attributeRef>
 </usedAttributes>

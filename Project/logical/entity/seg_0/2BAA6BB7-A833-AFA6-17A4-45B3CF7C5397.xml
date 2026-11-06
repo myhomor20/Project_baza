@@ -84,6 +84,21 @@
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,6,2</ownDataTypeParameters>
 </Attribute>
+<Attribute name="ID_Stacji" id="DDAAADF6-9105-D336-1C6C-54FEA123213D">
+<createdBy>oleks</createdBy>
+<createdTime>2026-11-06 17:53:18 UTC</createdTime>
+<generatorID>97C437FA-F67E-6260-BEDF-2D5271BDE0E3</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="BF863FF0-9A8B-1705-92EB-3BC696F879EA" value="true"/>
+</engineerTo>
+<referedAttribute>A2CE303D-1BE6-6D28-F7D7-36B7F268EA81</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="D3A86FBA-12FB-D848-ED0D-A1602AEEC06C" name="Myjnia PK">
@@ -93,7 +108,19 @@
 <engineerTo>
 <item key="BF863FF0-9A8B-1705-92EB-3BC696F879EA" value="true"/>
 </engineerTo>
+<usedAttributes>
+<attributeRef>9452FD53-588A-7DD7-7DD7-7FEA2A95294C</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="2AC46081-1D85-1D6B-1B7A-A48413366E2B" name="Myjnia_Key">
+<createdBy>oleks</createdBy>
+<createdTime>2026-11-06 17:46:56 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="BF863FF0-9A8B-1705-92EB-3BC696F879EA" value="true"/>
+</engineerTo>
 <pk>true</pk>
+<newElementsIDs>9452FD53-588A-7DD7-7DD7-7FEA2A95294C</newElementsIDs>
 <usedAttributes>
 <attributeRef>9452FD53-588A-7DD7-7DD7-7FEA2A95294C</attributeRef>
 </usedAttributes>

@@ -96,6 +96,21 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="ID_Klienta" id="B8140779-9A9F-A114-4DCE-50D72D389596">
+<createdBy>oleks</createdBy>
+<createdTime>2026-11-06 17:53:44 UTC</createdTime>
+<generatorID>3371296E-EF75-1642-1878-21AD51D6D2A8</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="BF863FF0-9A8B-1705-92EB-3BC696F879EA" value="true"/>
+</engineerTo>
+<referedAttribute>D81DB52B-8779-C6AC-A347-A76369C7E9F9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="AE70851C-26C1-9137-21F5-05488F286EDE" name="Zamowienie PK">
@@ -105,7 +120,19 @@
 <engineerTo>
 <item key="BF863FF0-9A8B-1705-92EB-3BC696F879EA" value="true"/>
 </engineerTo>
+<usedAttributes>
+<attributeRef>36ABC2CF-D8EE-841C-D30C-231F2D10ADA6</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="80388268-40A0-EFC3-B81B-8FBC7E52FD91" name="Zamowienie_Key">
+<createdBy>oleks</createdBy>
+<createdTime>2026-11-06 17:49:32 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="BF863FF0-9A8B-1705-92EB-3BC696F879EA" value="true"/>
+</engineerTo>
 <pk>true</pk>
+<newElementsIDs>36ABC2CF-D8EE-841C-D30C-231F2D10ADA6</newElementsIDs>
 <usedAttributes>
 <attributeRef>36ABC2CF-D8EE-841C-D30C-231F2D10ADA6</attributeRef>
 </usedAttributes>
