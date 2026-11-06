@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <StructuredType class="oracle.dbtools.crest.model.design.datatypes.StructuredType" name="XMLTYPE" directorySegmentName="seg_0" id="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1">
-<createdBy>artem</createdBy>
-<createdTime>2026-11-06 16:11:42 UTC</createdTime>
-<ownerDesignName>Projekt</ownerDesignName>
+<createdBy>oleks</createdBy>
+<createdTime>2026-11-06 16:15:01 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
 <visible>false</visible>
 <predefined>true</predefined>
 <final>false</final>
